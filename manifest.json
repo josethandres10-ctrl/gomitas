@@ -1,0 +1,15 @@
+{
+  "name": "El Vaivén - Tienda y Domicilios",
+  "short_name": "Vaivén",
+  "description": "Pedidos rápidos desde tu celular — tienda PWA con carrito y envío por WhatsApp.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#22c55e",
+  "icons": [
+    { "src": "/icono-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icono-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icono.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

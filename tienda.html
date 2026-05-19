@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gomitas Enchiladas</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <nav class="menu">
+
+      <div class="dropdown">
+
+        <button class="menu-btn">
+          ☰ Menú
+        </button>
+
+        <div class="dropdown-content">
+
+          <a href="#gomitas">
+            🍬 Gomitas
+          </a>
+
+          <a href="#extras">
+            🔥 Extras
+          </a>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+    <div class="hero">
+
+      <img src="imagen/fondocar.jpeg" class="logo-gomitas" alt="Gomitas">
+
+      <h1>
+        🍬 Gomitas Enchiladas
+      </h1>
+
+      <p>
+        Las más brutales de Barranquilla 🔥
+      </p>
+
+    </div>
+
+  </header>
+
+  <!-- GOMITAS -->
+
+  <section class="contenedor" id="gomitas">
+
+    <div class="producto">
+
+      <img src="imagen/6_gomitas.png" alt="6 Gomitas">
+
+      <div class="info">
+
+        <h2>
+          6 Gomitas
+        </h2>
+
+        <p class="precio">
+          $3.000
+        </p>
+
+        <button onclick="agregarCarrito('6 Gomitas',3000)">
+
+          Agregar
+
+        </button>
+
+      </div>
+    </div>
+
+    <div class="producto">
+
+      <img src="imagen/12_gomitas.png" alt="12 Gomitas">
+
+      <div class="info">
+
+        <h2>
+          12 Gomitas
+        </h2>
+
+        <p class="precio">
+          $6.000
+        </p>
+
+        <button onclick="agregarCarrito('12 Gomitas',6000)">
+
+          Agregar
+
+        </button>
+
+      </div>
+    </div>
+
+    <div class="producto">
+
+      <img src="imagen/15_gomitas.png" alt="15 Gomitas">
+
+      <div class="info">
+
+        <h2>
+          15 Gomitas
+        </h2>
+
+        <p class="precio">
+          $7.000
+        </p>
+
+        <button onclick="agregarCarrito('15 Gomitas',7000)">
+
+          Agregar
+
+        </button>
+
+      </div>
+    </div>
+
+    <div class="producto">
+
+      <img src="imagen/20_gomitas.png" alt="20 Gomitas">
+
+      <div class="info">
+
+        <h2>
+          20 Gomitas
+        </h2>
+
+        <p class="precio">
+          $9.000
+        </p>
+
+        <button onclick="agregarCarrito('20 Gomitas',9000)">
+
+          Agregar
+
+        </button>
+
+      </div>
+    </div>
+
+    <div class="producto">
+
+      <img src="imagen/24_gomitas.png" alt="24 Gomitas">
+
+      <div class="info">
+
+        <h2>
+          24 Gomitas
+        </h2>
+
+        <p class="precio">
+          $11.000
+        </p>
+
+        <button onclick="agregarCarrito('24 Gomitas',11000)">
+
+          Agregar
+
+        </button>
+
+      </div>
+    </div>
+
+    <div class="producto">
+
+      <img src="imagen/30_gomitas.png" alt="30 Gomitas">
+
+      <div class="info">
+
+        <h2>
+          30 Gomitas
+        </h2>
+
+        <p class="precio">
+          $14.000
+        </p>
+
+        <button onclick="agregarCarrito('30 Gomitas',14000)">
+
+          Agregar
+
+        </button>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- EXTRAS -->
+
+  <section class="contenedor" id="extras">
+
+    <div class="producto">
+
+      <img src="imagen/bombon.png" alt="Bombón">
+
+      <div class="info">
+
+        <h2>
+          Bombón
+        </h2>
+
+        <p class="precio">
+          $1.000
+        </p>
+
+        <button onclick="agregarCarrito('Bombón',1000)">
+
+          Agregar
+
+        </button>
+
+      </div>
+    </div>
+
+    <div class="producto">
+
+      <img src="imagen/chuleta_mango.png" alt="Chuleta Mango">
+
+      <div class="info">
+
+        <h2>
+          Chuleta Mango
+        </h2>
+
+        <p class="precio">
+          $1.500
+        </p>
+
+        <button onclick="agregarCarrito('Chuleta Mango',1500)">
+
+          Agregar
+
+        </button>
+
+      </div>
+    </div>
+
+    <div class="producto">
+
+      <img src="imagen/manzana_verde.png" alt="Manzana Verde">
+
+      <div class="info">
+
+        <h2>
+          Manzana Verde
+        </h2>
+
+        <p class="precio">
+          $1.500
+        </p>
+
+        <button onclick="agregarCarrito('Manzana Verde',1500    )">
+
+          Agregar
+
+        </button>
+
+      </div>
+    </div>
+
+    <div class="producto">
+
+      <img src="manzana_verde.png" alt="Manzana Verde">
+
+      <div class="info">
+
+        <h2>
+          Manzana Verde
+        </h2>
+
+        <p class="precio">
+          $1.500
+        </p>
+
+        <button onclick="agregarCarrito('Manzana Verde',1500)">
+
+          Agregar
+
+        </button>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- BOTON CARRITO -->
+
+  <div class="boton-carrito" onclick="abrirCarrito()">
+
+    🛒
+    <span id="contador">
+      0
+    </span>
+
+  </div>
+
+  <!-- CARRITO -->
+
+  <div class="carrito" id="carrito">
+
+    <h2>
+      🛒 Tu pedido
+    </h2>
+
+    <div id="lista-carrito">
+
+    </div>
+
+    <p class="total">
+
+      Total:
+      $<span id="total">0</span>
+
+    </p>
+
+    <button onclick="finalizarCompra()">
+
+      Finalizar pedido
+
+    </button>
+
+  </div>
+
+  <!-- POPUP -->
+
+  <div class="popup" id="popup" hidden>
+
+    <div class="popup-contenido">
+
+      <button class="popup-close" onclick="cerrarPopup()">
+
+        ×
+
+      </button>
+
+      <h2>
+        🚚 Confirmar pedido
+      </h2>
+
+      <input type="text" id="nombreCliente" placeholder="Tu nombre">
+
+      <input type="text" id="direccionEntrega" placeholder="Dirección">
+
+      <textarea id="notaPedido" placeholder="Nota adicional">
+
+</textarea>
+
+      <button class="btn-primary" onclick="enviarWhatsapp()">
+
+        Enviar pedido
+
+      </button>
+
+      <button class="btn-secondary" onclick="cerrarPopup()">
+
+        Cerrar
+
+      </button>
+
+    </div>
+  </div>
+  <footer>
+
+    <h3>
+      🍬 Gomitas Enchiladas
+    </h3>
+
+    <p>
+      Las más brutales de Barranquilla 🔥
+    </p>
+
+    <a href="https://instagram.com/Gomitaenchiladas128" target="_blank">
+
+      📸 @Gomitaenchiladas128
+
+    </a>
+
+    <span>
+      © 2026 Gomitas Enchiladas | Todos los derechos reservados
+    </span>
+
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
